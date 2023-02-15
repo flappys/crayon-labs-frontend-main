@@ -1,0 +1,64 @@
+p.countName {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: 100;
+    height: 50px;
+    
+}
+
+.countFlex {
+    display: flex;
+    color: white;
+    justify-content: center;
+    gap: 1rem;
+}
+.countCard {
+    width: 15.5%;
+
+
+           font-family: 'DM Sans', sans-serif;
+    padding: 1%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.headCount {
+    background: #1B3665;
+    height: 40px;
+    text-align: center;
+    padding-top: 5%;
+}
+.headBottom {
+    text-align: center;
+    background: #17245C;
+    height: 39px;
+    padding-top: 4%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.countcard {
+    height: auto;
+    min-height: 262px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .countCard {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .countcard {
+        height: auto;
+        min-height: auto;
+    }
+    .countFlex{
+        flex-wrap: wrap;
+        position: relative;
+        top: 17px;
+    }
+    p.countName{
+        margin-top: 9%;
+    }
+}

@@ -1,0 +1,527 @@
+input{
+    padding-left: 10px;
+}
+
+.centerform {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background: linear-gradient(251.79deg, rgba(0, 64, 197, 0.333) 0.91%, rgba(21, 34, 69, 0.27) 98.63%);
+    position: relative;
+    top: 15px;
+    border-radius: 19px;
+    min-height: 34rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.headcol1:nth-child(2){
+    font-style: italic;
+    position: relative;
+    right: 10%;
+}
+.space{
+    height: 10%;
+}
+
+.inputLabel1black{
+    color: black;
+    font-size: 20px;
+}
+
+
+.react-datetime-picker.react-datetime-picker--closed.react-datetime-picker--enabled.inputHalf {
+    width: 96%;
+}
+.headerbox {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 66px;
+    margin: 0 auto;
+    width: 91%;
+    padding-top: 1%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+
+}
+.border{
+    border-bottom: 1px solid white;
+}
+
+
+
+.flexmain{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    top: 30px;
+    height: 69px;
+    align-items: center;
+}
+.flexmain2{
+    display: flex;
+    margin: 0 auto;
+    width: 93%;
+    position: relative;
+    top: 30px;
+    height: 69px;
+
+
+}
+
+.col-half-first{
+    width: 30%;
+}
+
+.col-half-second:nth-child(1){
+    width: 25%;
+}
+.col-half-second:nth-child(2){
+    width: 73%;
+}
+
+
+input.InputFull {
+    width: 100%;
+    height: 40px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    padding-left: 3%;
+    border: none;
+}
+input.InputFull2 {
+    width: 100%;
+    height: 40px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+input.InputHalf{
+    width: 92%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    padding-right: 10px;
+    padding-left: 4%;
+    border: none;  
+    font-family: 'DM Sans', sans-serif;
+}
+.asterix{
+    color: red;
+}
+input.inputHalf.place{
+    width: 92%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 45px;
+    font-size: 14px;
+}
+.inputLabelnew{
+    color: black;
+}
+p.InputFullnew2 {
+    position: relative;
+    left: 18%;
+}
+
+input.secondpage{
+    width: 92%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+  
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.react-datetime-picker__wrapper{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+
+    font-size: 13px;
+}
+.react-datetime-picker__wrapper {
+    border: 1px solid #ccc;
+    height: 45px;
+    padding-left: 4%;
+}
+
+.buttonflex {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 40px;
+    right: 11%;
+}
+.spacemin {
+    height: 29px;
+}
+.page1 {
+    padding-bottom: 60px;
+}
+.buttonnext{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+cursor: pointer;
+color: white;
+background: #E26600;
+}
+.flexend {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: 38px;
+    right: 11%;
+}
+
+.buttonflexmain{
+    display: flex;
+    padding-top: 44px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+
+}
+.buttonPrev,.buttonEnd{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    color: white;
+    background: #E26600;  
+}
+
+.accordion{
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 4%;
+
+    border-radius: 10px;
+    width: 90%;
+}
+
+.accordionFlex{
+    display: flex;
+    justify-content: space-between;
+}
+img.accordionIcon {
+    height: 29px;
+    width: 29px;
+    position: relative;
+    top: 11px;
+    right: 2%;
+}
+.create_project {
+    margin: 40px;
+}
+.accordionbody {
+    padding: 11px;
+}
+p.titleform{
+    padding-right: 10px;
+}
+
+p.titleform {
+    position: relative;
+    left: 6%;
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+  
+}
+
+.accordionHeader{
+    cursor: pointer;
+}
+
+.mintlabel{
+    color: black;
+    cursor: default;
+}
+
+.subform{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.accordionBoxForm {
+    background: white;
+    border-radius: 15px;
+    width: 92%;
+    margin-top: 17px;
+    margin-left: 61px;
+}
+p.titleformaccordion {
+    font-size: 23px;
+    margin-left: 22px;
+}
+
+
+.mintflex{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+}
+.mincol:nth-child(1){
+    width: 10%;
+}
+
+.mincol:nth-child(2){
+    width: 40%;
+}
+
+
+.mincol:nth-child(3){
+    width: 15%;
+}
+.mincol:nth-child(4){
+    width: 40%;
+}
+
+.mintinput{
+    width: 85%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    border: 1px solid #CCC;
+
+}
+.addMore {
+  
+    width: 10%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    cursor: pointer;
+    color: white;
+    background: #E26600;
+}
+p.mintlabel{
+    font-size: 18px;
+    position: relative;
+    bottom: 7px;
+}
+img.iconcLOSE {
+    position: relative;
+    right: 27px;
+    top: 13px;
+    cursor: pointer;
+}
+
+
+
+
+.roycol:nth-child(1) {
+    width: 27%;
+}
+
+.roycol:nth-child(2) {
+    width: 31%;
+}
+.roycol:nth-child(3) {
+    width: 18%;
+}
+.roycol:nth-child(4) {
+    width: 40%;
+}
+
+p.roylabel {
+    font-size: 18px;
+    position: relative;
+    bottom: 7px;
+    cursor: default;
+}
+
+.newflex{
+    display: flex;
+}
+.colnewflex:nth-child(1) {
+    width: 22%;
+}
+.colnewflex:nth-child(2) {
+    width: 80%;
+}
+.royinput{
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    border: 1px solid #CCC;
+}
+
+
+
+.whitecol:nth-child(1) {
+    width: 24.5%;
+}
+
+.whitecol:nth-child(2) {
+    width: 31%;
+}
+.whitecol:nth-child(3) {
+    width: 26%;
+}
+.whitecol:nth-child(4) {
+    width: 34%;
+}
+.whiteinput{
+    width: 98%;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    border: 1px solid #CCC;
+}
+
+
+
+
+.colroyflex:nth-child(1) {
+    width: 22%;
+}
+.colroyflex:nth-child(2) {
+    width: 78%;
+}
+
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .roycol:nth-child(1) {
+        width: 46%;
+    }
+    .roycol:nth-child(2) {
+        width: 31%;
+    }
+    .roycol:nth-child(3) {
+        width: 27%;
+    }
+    .roycol:nth-child(4) {
+        width: 31%;
+    }    
+    .inputLabel2 {
+        color: white;
+        padding-left: 52px;
+    }
+    .centerform{
+        min-height: 45vw;
+    }
+    .react-datetime-picker__wrapper{
+        font-size: 9px;
+    }
+
+    img.iconcLOSE {
+        position: relative;
+        right: 12px;
+        top: 13px;
+    }
+    .mincol:nth-child(4) {
+        width: 41%;
+    }
+    .mincol:nth-child(3) {
+        width: 23%;
+    }
+    .mincol:nth-child(2) {
+        width: 40%;
+    }
+    .mincol:nth-child(1) {
+        width: 18%;
+    }
+    .whitecol:nth-child(1) {
+        width: 34.5%;
+    }
+    .whitecol:nth-child(2) {
+        width: 25%;
+    }
+    .whitecol:nth-child(3) {
+        width: 37%;
+    }
+    
+
+.whitecol:nth-child(4) {
+    width: 34%;
+}
+.colnewflex:nth-child(1) {
+    width: 29%;
+}
+.colroyflex:nth-child(1) {
+    width: 35%;
+}
+
+.tabdropflex {
+    display: flex;
+    margin: 0 auto;
+    width: 73%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 4%;
+}
+.maintabs {
+    cursor: pointer;
+    display: flex;
+    border: 1px solid #ccc;
+    margin-top: 2%;
+    border-radius: 7px;
+    gap: 1rem;
+    width: 187px;
+    justify-content: center;
+    height: 44px;
+}
+
+}
+
+.hide_del {
+    visibility: hidden;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 225px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

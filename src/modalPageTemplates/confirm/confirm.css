@@ -1,0 +1,22 @@
+.title_confirm{
+    padding-left: 3%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.body_content {
+    margin-left: 4%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+}  
+
+.buttonflexes {
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 86%;
+    justify-content: end;
+}
+.main_btn{
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+}

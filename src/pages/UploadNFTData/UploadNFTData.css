@@ -1,0 +1,213 @@
+.file_icon {
+  height: 7rem;
+  /* margin-right: 2rem; */
+}
+
+.container {
+  display: flex;
+  background: linear-gradient(251.79deg, rgba(0, 64, 197, 0.333) 0.91%, rgba(21, 34, 69, 0.27) 98.63%);
+  border-radius: 20px;
+  width: 85%;
+  height: 152px;
+}
+
+
+  .upload-grid {
+    text-align:center;
+    width: 9rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+  }
+
+  .container-flex {
+    display: flex;
+    /* gap: 1rem; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sample_json_btn{
+    margin-left: 3.3rem;
+    width: 183px;
+    background: #17245C;
+    padding: 0.5rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    border: 2px solid #17245C;
+    color: #FFFFFF;
+}
+
+.flex1 {
+    width: 45%;
+}
+
+.choose-btn {
+  padding: 1em 1em;
+  width: 10rem;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #1B3665;
+  border: 2px solid #E26600;
+  border-radius: 45px;
+  cursor: pointer;
+}
+
+
+.upload_files{
+    padding: 0.3em 1em;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #E26600;
+    border: 2px solid #E26600;
+    cursor: pointer;
+    margin-left: 1rem;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.mdl_btm_div{
+
+}
+
+.react-responsive-modal-modal {
+    width: 45% !important; 
+    text-align: center !important;
+    border-radius: 20px !important;
+  }
+  
+  .react-responsive-modal-closeButton {
+    display: flex !important;
+  }
+
+  .mdl_btm_div{
+    background: #1B3665;
+    margin-top: 3rem;
+    display: flex;
+    padding-left: 3rem;
+    text-align: center;
+    gap: 3rem;    
+    color: white;padding-top: 0.2rem;
+    align-content: center;
+    align-items: center;
+  }
+
+  .show_files_btn{
+    padding: 1em 1em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2f1445;
+    border: 2px solid #2f1445;
+    cursor: pointer;
+  }
+  
+  .done_btn {
+    padding: 1em 1em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2f1445;
+    cursor: pointer;
+    border: 2px solid #2f1445;
+    margin-left: 1rem;
+  }
+
+  .mdl_conten_div{
+    padding: 4rem;
+  }
+
+  .p_content{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .h4_heading {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+  }
+
+  .footer_upload_nft{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 92px;
+    gap: 8rem;
+    position: fixed;
+    background: #1B3665;
+    color: white;
+    width: 100%;
+    bottom: 0px;
+    right: 0;
+  }
+
+  .finalize_btn {
+    width: 200px;
+    height: 45px;
+    background: #17245C;
+    border: none;
+    color: white;
+  }
+
+  .sync_btn{
+    width: 100px;
+    height: 45px;
+    background: #17245C;
+    border: none;
+    color: white;
+  }
+
+  .faq-col2{
+    margin: 0rem 2.5rem;
+  }
+
+
+
+  .imagerow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img.uploanftimg {
+  height: 130px;
+  width: 130px;
+}
+.imagerow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.imagebody {
+  margin-top: 6%;
+}
+p.sub_image_data {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+}
+.delete_button_upload {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+  height: 29px;
+  cursor: pointer;
+  background: #FF0000;
+  padding-top: 6px;
+  width: 72%;
+  margin: 0 auto;
+}

@@ -1,0 +1,145 @@
+.benefits{
+    color: #E26600;
+}
+p.titlebenefits{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    font-weight: bolder;
+    bottom: 10px;
+}
+
+.carouselmob{
+    display: none;
+}
+.imagebox {
+    width: 100px;
+    margin: 0 auto;
+    background: #ccc;
+    height: 100px;
+    border-radius: 60px;
+}
+p.artname {
+    font-size: 24px;
+}
+img.icon {
+    padding-top: 25px;
+}
+.centercard{
+    
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    padding-top: 2%;
+
+}
+.text-center-benefit {
+    margin: 0 auto;
+    width: 42%;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.benefitFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 85%;
+    margin-left: auto;
+    font-family: 'DM Sans', sans-serif;
+    margin-right: auto;
+}
+.benefitCard {
+    background: #17245C;
+    width: 22%;
+    border-radius: 20px;
+    height: 280px;
+    padding-top: 2%;
+    
+
+}
+
+p.subname {
+    width: 68%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 8px;
+    font-size: 16px;
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+    .text-center-benefit{
+        width: 70%;
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .benefitFlex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        position: relative;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .benefitCard {
+        background: #17245C;
+        width: 48%;
+        border-radius: 10px;
+        height: 302px;
+        padding-top: 4%;
+    }
+    img.icon {
+        padding-top: 24px;
+    }
+    .imagebox {
+        width: 100px;
+        margin: 0 auto;
+        background: #ccc;
+        height: 100px;
+        border-radius: 60px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .carouselmob{
+        display: block;
+    }
+    .react-multi-carousel-dot-list{
+            bottom: 23px !important;
+    }
+    .benefitCard{
+        width: 100%;
+        padding-top: 9%;
+        height: 315px;
+    }
+    .benefitFlex{
+        display: none;
+    }
+    .text-center-benefit{
+        width: 88%;
+        position: relative;
+        top: 15px;
+    }
+    span.benefits{
+        color: #E26600;
+    }
+    .carouselmob{
+        display: block;
+    }
+    p.titlebenefits{
+        font-size: 20px;
+        bottom: 29px;
+    }
+    .imagebox {
+      
+        width: 163px;
+        margin: 0 auto;
+        background: #ccc;
+        height: 159px;
+        border-radius: 97px;
+    
+    }
+    img.icon {
+        padding-top: 54px;
+    }
+    .carouseldesktop{
+        display: none;
+    }
+}

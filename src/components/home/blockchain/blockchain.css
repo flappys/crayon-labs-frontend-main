@@ -1,0 +1,168 @@
+.blockchain {
+    padding-top: 4%;
+    margin: 0 auto;
+    width: 94%;
+}
+.mainblockchain {
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    display: none;
+}
+p.slidename {
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    font-size: 15px;
+    padding-top: 4px;
+    
+}
+
+.slide2 {
+    width: 43%;
+}
+.slide {
+    width: 79%;
+}
+.blockchainname{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.blockflex {
+    width: 226px;
+}
+img.imagebloxk {
+    width: 30px;
+    position: relative;
+    left: 7px;
+    top: 11px;
+}
+img.topimg {
+    padding-top: 28px;
+}
+.innerblockflex {
+    display: flex;
+    gap: 1px;
+    width: 235px;
+    justify-content: space-evenly;
+}
+
+
+.mainblockchainpart {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 51%;
+}
+.innerblockflex2 {
+   
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+
+}
+img.iconmobiledata {
+    height: 100%;
+    width: 65%;
+}
+.flexcarousel {
+    display: flex;
+    position: relative;
+    top: 13px;
+
+}
+
+
+.topswiper{
+    display: none;
+}
+img.topimg2 {
+    margin-top: 25px;
+    margin-left: 37px;
+    position: relative;
+    right: 29px;
+}
+.flexslider {
+    display: flex;
+    justify-content: space-between;
+}
+.innerblockflex2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .mainblockchain{
+        display: none;
+    }
+    .mainblockchainpart{
+        display: none;
+    }
+    .carousel{
+        display: block;
+    }
+    .slide1 {
+        color: white;
+        padding-top: 4px;
+        position: relative;
+        left: 18px;
+        bottom: 14px;
+        font-weight: bolder;
+        width: 100px;
+    }
+    .launch2 {
+        padding-top: 18% !important;
+    }
+    p.polyname {
+        position: relative;
+        right: 21px;
+        font-size: 24px;
+    }
+    .slide2 {
+        width: 243px;
+        position: relative;
+        left: 16%;
+    }
+    p.slidename{
+        color: white;
+        font-weight: bolder;
+        position: relative;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .topswiper{
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .mainblockchain {
+        width: 32%;
+        margin: 0 auto;
+    }
+
+    .innerblockflex {
+        display: flex;
+        gap: 1px;
+        width: 147px;
+        justify-content: space-evenly;
+    }
+
+    
+    .blockflex {
+        width: 9rem;
+    }
+
+    .blockchainname {
+        font-size: 23px;
+        padding-top: 13px;
+    }
+    .blockflex {
+        width: 181px;
+    }
+}

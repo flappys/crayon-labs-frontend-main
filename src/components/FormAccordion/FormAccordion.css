@@ -1,0 +1,17 @@
+p.titleformaccordion{
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.accordionnew {
+    margin-left: 2%;
+}
+
+.accordionBoxForm {
+    height: auto;
+    min-height: 71px;
+    margin-top: 4%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}

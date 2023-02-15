@@ -1,0 +1,141 @@
+
+
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+ul li.listitem{
+   list-style: none;
+   font-family: 'DM Sans', sans-serif;
+   text-align: center;
+   width: 122px;
+   height: 35px;
+   letter-spacing: 1px;
+   /* padding-top: 1%; */
+   padding-top: 6%;
+   font-size: 18px;
+}
+
+ul li.listitem:hover{
+    cursor: pointer;
+    border-radius: 14px;
+    box-shadow: 0 4px 75px rgb(44 23 138 / 47%);
+    font-family: 'DM Sans', sans-serif;
+    background: #e26600;
+    align-items: center;
+    height: 35px;
+    /* padding-top: 1%; */
+    padding-top: 6%;
+    width: 122px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+ul li.listitem.active{
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 75px rgb(44 23 138 / 47%);
+    font-family: 'DM Sans', sans-serif;
+    background: #e26600;
+    align-items: center;
+    height: 35px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-top: 1%;
+    width: 140px;
+    margin-left: 10px;
+}
+
+.header_mob{
+    display: none;
+}
+
+.headermainco1:nth-child(1) {
+    margin-top: 1.4%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .headerflex{
+        display: none;
+    }
+    .header_mob {
+        display: flex;
+        justify-content: space-between;
+    }
+    img.img_icon {
+        height: 52px;
+    }
+    .menu_mob{
+        background: #242754;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    font-family: DM Sans,sans-serif;
+    height: auto;
+    margin-top: 2%;
+    position: absolute;
+    width: 92%;
+    z-index: 1;
+    }
+    li.menuItems {
+        list-style: none;
+        padding-top: 20px;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    ul li.listitem {
+        list-style: none;
+        font-family: 'DM Sans', sans-serif;
+        text-align: center;
+        width: 85px;
+        height: 26px;
+        padding-top: 3%;
+        font-size: 10px;
+    
+    }
+    ul li.listitem:hover {
+        list-style: none;
+        font-family: 'DM Sans', sans-serif;
+        text-align: center;
+        width: 85px;
+        height: 26px;
+        background: #e26600;
+        padding-top: 1%;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+    ul li.listitem.active {
+       
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    width: 8rem;
+    height: 26px;
+    padding-top: 3%;
+    font-size: 10px;
+
+    }
+    .headermainco1:nth-child(1){
+        width: 8rem;
+    }
+    .headerlogo {
+        height: 38px;
+        padding-top: 5px;
+    }
+    .menu {
+        width: 82%;
+    }
+}

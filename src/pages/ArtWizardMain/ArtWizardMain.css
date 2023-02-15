@@ -1,0 +1,671 @@
+.flexwizard {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 15px;
+}
+.wizardcol:nth-child(1){
+    width: 84%;
+}
+.wizardcol:nth-child(2){
+    width: 25%;
+    position: relative;
+    left: 4%;
+
+}
+.wizardCard {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    width: 30%;
+    height: 431px;
+    border-radius: 10px;
+}
+
+.gridImages{
+    /* display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    height: 560px;
+    overflow: scroll;
+    overflow-x: hidden; */
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    height: 750px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.nongrid{
+    display: flex;
+    gap: 2rem;
+}
+
+.nongrid .wizardCard{
+    width: 400px;
+}
+
+  .AttributeFlex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    
+    margin-top: 30%;
+}
+
+.layersidemenu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 20px;
+
+    
+}
+.layerpreview {
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 159px;
+    /* padding-top: 36%; */
+    padding-top: 100px;
+    width: 90%;
+
+}
+
+p.itemName {
+    color: black;
+    padding-left: 15%;
+    position: relative;
+    bottom: 5%;
+    width: 43%;
+}
+
+.layerheader{
+    display: flex;
+    justify-content: space-between;
+    height: 59px;
+}
+
+.mainlayercard.active{
+    box-sizing: border-box;
+    cursor: pointer;
+    border-top:4px solid  #e26600;
+    height: 49px;
+    padding-top: 3px;
+
+}
+.layercol:nth-child(2){
+  
+    background: black;
+    width: 100px;
+    height: 39px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    right: 14%;
+
+}
+button.addrules {
+    background: #06132D;
+    outline: none;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 4px;
+}
+.addrules2{
+    background: #FF1414;
+    outline: none;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 21px;
+}
+.btn_add_rule_flex {
+    display: flex;
+    justify-content: space-between;
+    height: 21px;
+    margin: 0 auto;
+    width: 100%;
+    gap:6px;
+}
+.previewtext {
+    position: relative;
+    bottom: 8px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+.rarity_name_index{
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+
+p.preview {
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 3px;
+    padding-left: 6%;
+    font-weight: 100;
+  
+}
+
+button.layerbutton{
+    font-size: 19px;
+    background-color: #E26600;
+    width: 90%;
+    cursor: pointer;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    color: white;
+    height: 48px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl_gc_btn_icons {
+    margin-right: 8px;
+}
+
+button.layerbuttongenerate{
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #E26600;
+    width: 92%;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    color: white;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.layerbuttondownload{
+    font-size: 17px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #E26600;
+    width: 92%;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    color: white;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#myRange {
+    width: 200px;
+}
+
+
+
+
+
+
+button.buttonattribute{
+    cursor: pointer;
+    font-size: 19px;
+    background-color: #E26600;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 0.01em;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    color: white;
+    height: 50px;
+    font-weight: 500;
+    margin: 0 auto;
+    min-width: 196px
+}
+
+.layerboxflex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: black;
+    gap: 0.5rem;
+    flex-direction: row;
+}
+
+
+
+
+.delete_layer{
+    position: relative;
+    left: 10px;
+}
+
+.layerfooter{
+ 
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+
+ 
+}
+.layersdata {
+  
+    overflow: scroll;
+    overflow-x: hidden;
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+img.imagelayer {
+    /* width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 30%;
+    top: 20%; */
+    width: 90%;
+    height: 200px;
+    position: absolute;
+    left: 0%;
+    top: 85px;
+}
+img.innerimglatest {
+    justify-content: center;
+    position: relative;
+    left: 28%;
+    top: 44px;
+    height: 100px;
+    width: 100px;
+}
+.layersdatanoscroll{
+ 
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    height: 150px;
+    width: 312px;
+
+}
+
+.layersdata::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .attributescol{
+      cursor: pointer;
+  }
+  
+  .gridImages::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90);
+  }
+  
+  .gridImages::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    right: 40px;
+  }
+
+
+  .gridImages::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+   
+  }
+
+  .attributescol{
+      cursor: pointer;
+  }
+  
+  .layersdata::-webkit-scrollbar-thumb {
+    background: none
+  }
+  
+  .layersdata::-webkit-scrollbar-track {
+    background:none
+  }
+
+  p.counts{
+    color: black;
+    position: relative;
+    left: 8%;
+    font-size: 12px;
+    top: 2px;
+    font-family: 'DM Sans', sans-serif;
+
+  }
+
+  .namebox {
+    height: 29px;
+    font-size: 15px;
+    width: 54%;
+    background: #ccc;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    position: relative;
+    left: 13%;
+    padding-left: 3%;
+    top: 5px;
+}
+
+img.innerimg {
+    height: 21px;
+    width: 24px;
+    margin-top: 12px;
+ 
+}
+.space_art{
+    height: 30px;
+}
+
+.space_art1{
+    height: 100px;
+}
+.layerstitle {
+    font-weight: 600;
+    font-size: 19px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 2px;
+
+}
+.progress {
+    position: relative;
+    top: 11px;
+}
+img.innerimg1 {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 45%;
+}
+.innerbgimage{
+ 
+    position: relative;
+    height: 200px;
+    width: 100%;
+    top: 11px;
+
+
+}
+.bgimage{
+    
+    border-radius: 12px;
+    bottom: 104px;
+    height: 305px;
+
+
+}
+.blank{
+    width: 268px;
+}
+.gridimageflex {
+    display: flex;
+    gap: 1rem;
+}
+img.delete_icon_top {
+    position: absolute;
+    right: 5%;
+    background: #ccc;
+    z-index: 2;
+    height: 21px;
+    padding: 8px;
+    top: 11%;
+    cursor: pointer;
+}
+
+.projectbox{
+    border: 1px solid #e26600;
+    margin: 10px;
+    padding-left: 1%;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 4%;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.projectbox:hover{
+    background: #e26600;
+    cursor: pointer;
+}
+.projectname{
+    font-family: 'Lato', sans-serif;  
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 1%;
+}
+
+.gridcol{
+    background: white;
+}
+.innerflexdata {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    top: 20px;
+    
+}
+
+.namelayer{
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    padding-left: 8%;
+    width: 60%;
+    position: relative;
+    bottom: 3px;
+    font-size: 15px;
+
+}
+img.innerimgdata {
+    height: 23px;
+    width: 23px;
+    position: relative;
+    top: 6px;
+    border-radius: 3px;
+    left: 12%;
+    padding: 3px;
+    border: 1px solid #ccc;
+
+}
+input.inputslider{
+    width: 100%;
+    padding-left: 0rem;
+}
+
+input.inputart{
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 22px;
+    width: 97%;
+
+}
+
+.rarityflex {
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+
+p.rarity_name {
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+
+}
+input.rarity {
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 22px;
+    width: 137px;
+    position: relative;
+    top: 10px;
+}
+
+.mainlayercard{
+    width: 100%;
+    background-color: white;
+    height: 43px;
+    display: flex;
+    gap:3px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    right: 13%;
+}
+.layerflex{
+    display: flex;
+    flex-direction: column;
+
+}
+.layerMaincol{
+   display: flex;
+   cursor: pointer;
+}
+.over {
+    transform: scale(1.01);
+    opacity:0.9;
+    
+  }
+img.delete_icon {
+    position: relative;
+    top: 13px;
+    cursor: pointer;
+    height: 22px;
+    right: 82%;
+}
+.iconList{
+    height: 25px;
+    top: 3px;
+    padding: 5px;
+    position: relative;
+    left: 13%;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .gridImages .wizardCard{
+        width: 30%
+    }
+    .nongrid{
+    flex-wrap: wrap;
+    }
+    .nongrid .wizardCard{
+        width: 30%
+    }
+    input.rarity{
+        width: 64%;
+    }
+    input#myRange {
+        width: 100%;
+    }
+    button.addrules{
+        width: 100px;
+    }
+    .addrules2{
+        width: 100px;
+    }
+    img.delete_icon {
+        right: 16px;
+    }
+    button.layerbutton{
+        width: 88%;
+    }
+    img.innerimg1{
+        height: 100px;
+        width: 100px;
+    }
+    p.counts{
+        color: black;
+        position: relative;
+        left: 13px;
+        font-size: 9px;
+        top: 9px;
+        font-family: 'DM Sans', sans-serif;
+    }
+    .mainlayercard{
+        width: 100%;
+    }
+    .namebox{
+        width: 46%;
+    }
+    input.inputslider{
+        width: 100%;
+    }
+}
+
+
+
+
+
+.tooltipname{
+    outline: none;
+    width: 85%;
+    position: relative;
+    top: 1rem;
+    height: 25px;
+}
+
+.tooltipflex {
+    display: flex;
+    background: white;
+    width: 90%;
+    position: relative;
+    top: 3px;
+}
+input.tooltipname {
+    width: 100%;
+    border: none;
+    position: relative;
+    top: 7px;
+}
+.add {
+    background: white;
+    height: 43px;
+    color: black;
+    cursor: pointer;
+    padding-right: 5%;
+}
+.add span {
+    position: relative;
+    top: 24%;
+}
+
+.mainDiv{
+    list-style-type: none;
+}
+
+
+.main1 {
+    width: 100%;
+}
+.layercontainer{
+    display: flex;
+}
+
+#labelRarity {
+    text-transform: capitalize;
+}

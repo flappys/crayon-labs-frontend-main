@@ -1,0 +1,163 @@
+.tabFlex {
+    display: flex;
+    gap: 3.5rem;
+}
+
+.tabs {
+    width: 13%;
+    border: 1px solid #E26600;
+    margin: 9px;
+    text-align: center;
+    border-radius: 23px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+}
+.tabs.active {
+    background: #E26600;
+    cursor: pointer;
+}
+
+.accordionBox {
+    height: auto;
+    border: 1px solid #E26600;
+    margin-top: 4%;
+    border-radius: 12px;
+}
+
+.questionFlex {
+    display: flex;
+}
+
+.faq-col1 {
+    width: 86%;
+}
+
+
+.accordionflex {
+    display: flex;
+}
+
+.accordioncol1 {
+    width: 95%;
+}
+.accordioncol1:nth-child(2) {
+    width: 0%;
+    margin-top: 2.3%;
+}
+
+p.question {
+    font-family: 'Lato', sans-serif;
+    padding-left: 4%;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+img.faqImage {
+    /* position: relative;
+    left: 20%;
+    top: 16%; */
+    position : initial;
+    margin-top: 70px;
+}
+
+p.answer {
+  
+    padding-left: 4%;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 3%;
+    
+    
+}
+.Icon{
+    cursor: pointer;
+}
+
+.Free {
+    border: 1px solid #E26600;
+    height: 35px;
+}
+.faq{
+    background:  #06132D;;
+    
+    height: 688px;
+
+}
+img.Icon1{
+    cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    img.Icon1 {
+        position: relative;
+        top: 14px;
+
+    
+    }
+    .accordioncol1{
+        width: 90% !important;
+    }
+    .accordioncol1:nth-child(2){
+        width: 5% !important;
+    }
+    .tabs {
+  
+        width: 100%;
+        border: 1px solid #E26600;
+        margin: 9px;
+        text-align: center;
+        font-family: 'DM Sans', sans-serif;
+        border-radius: 21px;
+        font-size: 14px;
+    
+    }
+    .faq {
+        position: relative;
+        top: 27px;
+    }
+    .center{
+        
+    color: white;
+    padding-top: 2%;
+
+    }
+    img.faqImage {
+       display: none;
+    }
+    img.Icon {
+        position: relative;
+        right: 15%;
+    }
+    .tabFlex {
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+    margin-top: 5%;
+    }
+    p.question{
+        font-size: 15px;
+        text-align: left;
+    }
+    p.answer{
+        text-align: left;
+    }
+    .faq-col1{
+        width: 100%;
+    }
+    .questionFlex {
+        display: flex;
+        margin-top: 6%;
+    }
+    .faq-col2{
+        display: none;
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .faq-col1 {
+        width: 100%;
+    }
+    .faq-col2{
+        display: none;
+    }
+}

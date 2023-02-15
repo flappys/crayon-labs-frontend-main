@@ -1,0 +1,238 @@
+.containerlogin {
+    background: #17245C;
+    height: 624px;
+    width: 1126px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+}
+.flexMain{
+
+    width: 50%;
+}
+.flexMain > .loginbg{
+    height: 624px;
+    background-image: url("../../images/bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.buttonloginflex {
+    display: flex;
+    height: 60px;
+}
+.transparentbg {
+    background: rgb(0 0 0 / 50%);
+    height: 71%;
+    position: relative;
+    top: 13%;
+    margin: 0 auto;
+    width: 78%;
+    
+}
+
+.image-center {
+   
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+.textcontent {
+    margin-top: 14rem;
+    /* padding-left: 14rem; */
+    color: white;
+    text-align: center;
+    filter: blur(0px) !important;
+}
+p.subtop{
+    filter: blur(0px);
+    font-weight: 100;
+    font-family: 'DM Sans', sans-serif;
+}
+p.submid {
+    font-weight: bolder;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.loginFlex{
+    display: flex;
+}
+.headtop {
+    padding-left: 11%;
+    padding-top: 0%;
+    border-bottom: 1px solid white;
+    height: 14%;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    width: 89%;
+
+}
+.inputlabel {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    margin-top: 1rem;
+}
+input.signupinput {
+    outline: none;
+    border: none;
+    height: 39px;
+    border-radius: 7px;
+    padding-left: 5%;
+}
+.formSignup {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 4%;
+}
+p.headersign {
+    font-weight: bolder;
+    height: 16%;
+    font-size: 22px;
+
+}
+p.validationerror {
+    color: red;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+p.headerbottom {
+    height: 1px;
+}
+p.forgot {
+    padding-left: 6%;
+    position: relative;
+    bottom: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+button.btn-signup {
+    height: 41px;
+    background: #E26600;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 46%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .loginFlex{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexMain{
+        width: 100%;
+    }
+
+    .headtop {
+        padding-left: 11%;
+        padding-top: 0%;
+        border-bottom: 1px solid white;
+        height: 109px;
+        font-family: 'DM Sans', sans-serif;
+        color: white;
+        width: 100%;
+    }
+    .containerlogin{
+        width: 91%;
+        height: 100%;
+    }
+}
+
+.signin_google_btn {
+    outline: none;
+    border: none;
+    height: 39px;
+    border-radius: 7px;
+    padding-left: 5%;
+}
+
+.login-with-google-btn {
+       width: 100%;
+       margin-top: 20px;
+       padding: 14px 16px 12px 42px;
+       border: none;
+       border-radius: 10px;
+       font-weight: 550;
+       background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+       background-color: white;
+       background-repeat: no-repeat;
+       background-position: 30%;
+       font-family: 'DM Sans';
+       color: #06132D;
+    cursor: pointer;
+  }
+
+  .or {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+  }
+  
+  .hr_line {
+    width: 43%;
+  } 
+
+
+  @media (min-width: 768px) and (max-width: 1366px) {
+    .flexMain > .loginbg{
+        display: none;
+    }
+   
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .cardboard_all {
+        width: auto !important;
+    }
+    .flexMain > .loginbg{
+        display: none;
+    }
+    .headtop{
+        border:none;
+    }
+    .containerlogin {
+        width: 91%;
+        height: 100%;
+        position: relative;
+        top: 18px;
+    }
+    .formSignup{
+    position: relative;
+    bottom: 57px;
+    }
+    .buttonloginflex {
+        display: flex;
+        flex-wrap:wrap;
+   
+    }
+    .hr_line{
+        display:none;
+    }
+    button.btn-signup{
+        width: 100%;
+    }
+    .cardboardflex {
+        display: flex;
+        gap: 39px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+.headermain:nth-child(2){
+    display: none !important;
+}
+   
+    
+  }
+
+ 

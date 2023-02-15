@@ -1,0 +1,112 @@
+.centerBox{
+    display: flex;
+    flex-direction: column;
+    /* height: 580px; */
+    margin: 0 auto;
+    width: 550px;
+    position: relative;
+    background: linear-gradient(251.79deg, rgba(0, 64, 197, 0.333) 0.91%, rgba(21, 34, 69, 0.27) 98.63%);
+padding-bottom: 2rem;
+margin-top: 1rem;
+    top: 10px;
+    border-radius: 10px;
+}
+.headtopforgot {
+    height: 12%;
+    border-bottom: 1px solid white;
+}
+p.forgotP {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 31px;
+    color: white;
+    position: relative;
+    /* bottom: 14px; */
+}
+.emailIns{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    /* font-size: 16px; */
+    width: 76%;
+    margin: 0 auto;
+    padding-top: 34px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+}
+button.btn-sentmail {
+    width: 81%;
+    margin: 0 auto;
+    height: 50px;
+    color: white;
+    border-radius: 17px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    background: #E26600;
+    cursor: pointer;
+}
+
+.space1{
+    height: 40px;
+}
+.Space2{
+    height: 47px;
+}
+button.btn-go {
+    width: 79%;
+    cursor: pointer;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+}
+.borderbottom{
+    height: 25px;
+    border-bottom: 1px solid white;
+    /* margin: 0 auto; */
+    width: 80%;
+    margin-left: 3.3rem;
+}
+
+.borderbottom2{
+    height: 25px;
+    border-bottom: 1px solid white;
+    /* margin: 0 auto; */
+    width: 80%;
+    margin-right: 3.3rem;
+}
+
+.or_email {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    color: white;
+    text-align: center;
+  }
+
+  .div_or{
+      display: flex;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .centerBox{
+        width: 90%;
+    }
+    .headtopforgot{
+        height: 16%;
+    }
+   
+}

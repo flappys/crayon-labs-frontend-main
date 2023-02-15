@@ -1,0 +1,150 @@
+body{
+  background-image: url('./images/ng.png');
+  font-family: 'Roboto', sans-serif;
+  background-repeat:no-repeat ;
+  max-width: 8000px;
+  background-size: cover;
+  z-index: 1000;
+  overflow-x: hidden;
+
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(3% + 1px) !important;
+}
+.react-multiple-carousel__arrow--left{
+  left: calc(3% + 1px) !important;
+}
+.react-multi-carousel-dot--active button{
+  background: #E26600 !important;
+}
+.react-multi-carousel-dot button{
+  background:  #17245C;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .center{
+    margin: 0 auto;
+    width: 95%;
+    color: white;
+      margin-top: 5% !important;
+  }
+}
+
+/* 33% */
+@media (min-width:4103px) and (max-width:5464px)
+ {
+  html{
+    zoom: 3.5;
+  }
+ }
+
+ 
+ @media (min-width:5103px) and (max-width:6464px)
+ {
+  html{
+    zoom: 3.5;
+  }
+ }
+
+ @media (min-width:3064px) and (max-width:5064px)
+ {
+  html{
+    zoom: 2.5;
+  }
+ }
+
+
+ @media (min-width:2064px) and (max-width:4064px)
+ {
+  html{
+    zoom: 1.5;
+  }
+ }
+
+
+ 
+ .react-multi-carousel-list{
+  margin-top: 5% !important;
+ }
+
+ .ReactModal__Overlay.ReactModal__Overlay--after-open{
+   
+  background-color: rgb(0 0 0 / 75%) !important;
+  z-index: 5;
+  
+
+ }
+
+ .ReactModal__Content.ReactModal__Content--after-open{
+  padding: 0px !important;
+  border:none !important;
+  box-shadow: none;
+  z-index: 5;
+ }
+
+
+
+
+ body::-webkit-scrollbar-thumb {
+  background: #8F4260;
+}
+
+body::-webkit-scrollbar-track {
+  background: #190C3E;
+  border: none;
+  
+  position: relative;
+  right: 40px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+  border: none;
+  background: #8F4260;
+ 
+}
+
+
+input[type="range"]{
+  /* -webkit-appearance: none;
+  -moz-apperance: none;
+  border-radius: 6px;
+  height: 6px;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      color-stop(0.15, #94A14E),
+      color-stop(0.15, #C5C5C5)
+  ); */
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body{
+    background: url("./images/ng.png") no-repeat center center fixed; 
+
+    background-size: cover;
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  body{
+    background: url("./images/ng.png") no-repeat center center fixed; 
+
+    background-size: cover;
+  }
+  .containerlogin{
+    width: 80% !important;
+    margin:0 auto;
+  }
+  .flexMain{
+    width: 100% !important;
+  }
+  .flexMain:nth-child(2){
+    display: none;
+  }
+  
+}

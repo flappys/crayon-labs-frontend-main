@@ -1,0 +1,120 @@
+.mainAccFlex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.accflex2 {
+    width: 5%;
+    margin-top: 6%;
+}
+.accflex1 {
+    width: 100%;
+}
+
+.iconImage{
+    width: 22px;
+    height: 22px;
+    position: relative;
+    top: 10px;
+}
+.button_flex{
+    display: flex;
+    gap: 1rem;
+}
+button.download{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #E26600;
+    height: 2rem;
+    width: 5rem;
+}
+.download_option {
+    position: relative;
+    left: 4%;
+    bottom: 16px;
+}
+.innerdownloadflex{
+    display: flex;
+    margin-left: 3.1rem;
+    gap: 8px;
+}
+.grid-container {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 92%;
+}
+button.del-btn {
+    cursor: pointer;
+    background: #06132D80;
+    border-radius: 12px;
+    border: 1px solid orange;
+    width: 100px;
+    height: 33px;
+    color: white;
+}
+
+.grid-container.center{
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 92%;
+    justify-content: center; 
+}
+
+img.icon_item {
+    height: 43px;
+}
+
+.item1 {
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(251.79deg, rgba(0, 64, 197, 0.333) 0.91%, rgba(21, 34, 69, 0.27) 98.63%);
+    width: 24%;
+    border-radius: 20px;
+    margin-bottom: 33px;
+    height: 128px;
+    padding-top: 3%;
+}
+
+span.marker {
+    font-size: 15px;
+}
+img.download {
+    position: relative;
+    left: 4px;
+    top: 8px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.textflex {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    gap: 2rem;
+    position: relative;
+    margin-left: 4%;
+    bottom: 0.5rem;
+}
+.btn_name_download{
+    border:1px solid white;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    height: 26px;
+    padding-top: .3rem;
+}
+.btn_name_remove{
+    border:1px solid white;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    height: 26px;
+    padding-top: .3rem;
+}

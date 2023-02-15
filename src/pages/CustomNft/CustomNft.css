@@ -1,0 +1,194 @@
+.custom_nft_div {
+    display: flex;
+    flex-direction: column;
+    /* height: 590px; */
+    margin: 0 auto;
+    background: linear-gradient(251.79deg, rgba(0, 64, 197, 0.333) 0.91%, rgba(21, 34, 69, 0.27) 98.63%);
+    /* width: 90%; */
+    border-radius: 20px;
+    margin-top: 3rem;
+    width: 1238px;
+
+}
+
+.custom_nft_content{
+    padding-left: 3rem;
+    padding-top: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 5rem;
+}
+
+div.custom_nft_content p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+div.custom_nft_content h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.custom_nft_choose_div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 4rem;
+    background: #1B3665;
+    /* width: 95%; */
+    width: 1105px;
+    height: 87px;
+}
+
+.custom_nft_choose_btn{
+    padding: 1em 3em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2f1445;
+    border: 2px solid #E26600;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.custom_nft_choose_heading{
+    padding: 1em 2em;
+}
+
+.nft_meta{
+    padding-left: 2rem;
+}
+
+.inputs{
+
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    height: 52px;
+    width: 92%;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    gap: 6rem;
+}
+
+.form_container {
+    width: 100%;
+}
+
+.text-area{
+    /* width: 90%; */
+    padding: 1.5rem;
+    /* height: 149px; */
+    border-radius: 10px;
+    width: 1046px;
+    height: 149px;
+}
+
+.span_text {
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.custom_nft_btns_div{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.custom_nft_btn1{
+    height: 50px;
+    background: #17245C;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 8rem;
+    margin-right: 2rem;
+}
+
+.custom_nft_btn2{
+    height: 50px;
+    background: #E26600;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 13rem;
+}
+
+.form_container2 {
+    width: 100%;
+    margin-left: -10%;
+}
+
+.type_file{
+    display: none;
+}
+
+.custom_nft_img_prev{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 3rem;
+    background: #091C43;
+    width: 93%;
+    border: 0px solid #1B3665;
+}
+
+.custom_nft_img{
+    margin-left: 2rem;
+    width: 100px;
+    height: 7rem;
+}
+
+.custom_nft_del_btn {
+    padding: 0.5em 1em;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #1B3665;
+    border: 2px solid #1B3665;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.inputs2{
+    /* width: 86%;
+    height: 40px; */
+    width: 510px;
+    height: 52px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
+select {
+    /* display: block;
+    width: 100%;
+    font-size: 1em;
+    padding: 0.8rem 0.5rem;
+    border: 1px solid #333;
+    font-family: inherit; */
+    appearance: none;
+    background-image: url("../../images/dropdown.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+}

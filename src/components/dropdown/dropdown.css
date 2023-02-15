@@ -1,0 +1,65 @@
+.drop {
+  position: absolute;
+  height: auto;
+  background: white;
+  width: 60%;
+  left: 30%;
+  top:31%;
+  border-radius: 8px;
+  min-height: 320px;
+  z-index: 1;
+}
+
+.inputLabel1{
+  color: white;
+  cursor: default;
+}
+ .inputLabel2{
+   color: white;
+  padding-left: 93px;
+  cursor: default;
+}
+
+img.imgs {
+  position: absolute;
+  width: 21px;
+  bottom: 26px;
+  left: 26%;
+}
+
+.tabdropflex {
+    display: flex;
+    margin: 0 auto;
+    width: 664px;
+    flex-wrap: wrap;
+    gap: 1rem;
+  
+  }
+
+  .maintabs {
+    cursor: pointer;
+    display: flex;
+    border: 1px solid #ccc;
+    margin-top: 2%;
+    border-radius: 7px;
+    gap: 1rem;
+    width: 320px;
+    justify-content: center;
+    height: 44px;
+  }
+    
+  .maintabs.active {
+    background: #E26600;
+    color: white;
+  }
+
+  p.blockname{
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    font-size: 14px;
+}
+
+img.dropselect {
+    height: 25px;
+    margin-top: 11px;
+  }

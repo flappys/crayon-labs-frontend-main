@@ -1,0 +1,44 @@
+.deletecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+
+}
+.buttondeleteflex {
+    padding-top: 4%;
+}
+
+button.mdl-btn {
+    width: 186px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    line-height: 98%;
+}
+button.mdl-btn2 {
+    width: 186px;
+    height: 52px;
+    background: #E26600;
+    color: white;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 98%;
+}
+
+.buttondeleteflex {
+    padding-top: 4%;
+    display: flex;
+    gap: 1rem;
+}

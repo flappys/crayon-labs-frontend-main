@@ -1,0 +1,106 @@
+.formFlex {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.subform{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.subform:nth-child(3){
+    position: absolute;
+    right: 13%;
+}
+p.addform {
+    position: relative;
+    left: 15%;
+    top: -8px !important;
+    font-size: 20px;
+    width: 254px;
+}
+input.formInput {
+    outline: none;
+    width: 255px;
+    border-radius: 5px;
+    height: 52px;
+    border: 1px solid #ccc;
+}
+input.formInputEnable {
+    outline: none;
+    width: 255px;
+    height: 52px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+.mintfund {
+    padding: 12px;
+}
+.buttonadd{
+    margin-left: 1%;
+    background: #E26600;
+    width: 120px;
+    cursor: pointer;
+    height: 48px;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    border: none;
+}
+.buttonaddMint{
+    margin-left: 1%;
+    background: #E26600;
+    width: 120px;
+    cursor: pointer;
+    height: 46px;
+    text-align: center;
+    padding-top: 0px;
+    color: white;
+    border: none;
+    position: relative;
+    bottom: 4px;
+}
+.space{
+    height: 115px;
+}
+img.iconcLOSE {
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    top: 20px;
+    left: 46px;
+
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .subform {
+        display: flex;
+        justify-content: space-between;
+        gap: 5rem;
+    }
+    input.formInputRoyality{
+        width: 523px;
+    }
+    p.addform{
+        font-size: 15px;
+        position: relative;
+        top: 5px !important;
+    }
+    input.formInput{
+        width: 53%;
+    }
+    
+    input.formInputEnable{
+        width: 53%;
+    }
+    img.iconcLOSE {
+        cursor: pointer;
+        height: 22px;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+}
+
+

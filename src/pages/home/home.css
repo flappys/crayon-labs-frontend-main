@@ -1,0 +1,35 @@
+.launches {
+    padding-top: 5%;
+    height: 650px;
+
+}
+.launch2 {
+   
+    padding-top: 12%;
+    height: 695px;
+
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .launches {
+        padding-top: 1%;
+        height: 600px;
+        
+    }
+    .launch2 {
+    margin: 0 auto;
+    width: 88%;
+    }  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .launches {
+        padding-top: 1%;
+        height: 691px;
+        
+    }
+    .launch2 {
+    margin: 0 auto;
+    width: 88%;
+    } 
+}

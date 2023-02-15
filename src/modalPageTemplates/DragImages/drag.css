@@ -1,0 +1,97 @@
+img.closeButtondrag {
+    position: absolute;
+    right: 3%;
+    top: 6%;
+    cursor: pointer;
+}
+.contentcenter {
+    text-align: center;
+    position: relative;
+    top: 145px;
+    font-size: 30px;
+    margin: 0 auto;
+    font-family: 'DM Sans', sans-serif;
+    width: 45%;
+}
+.text {
+    margin: 0 auto;
+    width: 42%;
+    text-align: center;
+}
+.button_upload {
+    font-family: 'DM Sans', sans-serif;
+    background: #E26600;
+    width: 43%;
+    margin: 0 auto;
+    height: 54px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    padding-top: 2px;
+}
+.custom-file-upload {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    background: #E26600;
+    width: 293px;
+    height: 30px;
+
+}
+input[type="file"] {
+    display: none;
+}
+
+span.uploadspan {
+    position: relative;
+    bottom: 3px;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.footerbox_drag {
+    background: #1B3665;
+    position: absolute;
+    /* height: 100px; */
+    width: 100%;
+    bottom: 0px;
+}
+
+.footerboxflex_drag {
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 1%; */
+    color: white;
+    padding-bottom: 1%;
+    align-items: baseline;
+    height: 60px;
+}
+
+.showFile_drag {
+    font-family: 'DM Sans', sans-serif;
+    height: 50px;
+    background: #17245C;
+    width: 105px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Done_drag {
+    font-family: 'DM Sans', sans-serif;
+    height: 50px;
+    background: #06132D;
+    width: 105px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

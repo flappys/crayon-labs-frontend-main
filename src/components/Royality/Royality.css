@@ -1,0 +1,95 @@
+.section-row {
+    display: flex;
+    gap: 2rem;
+}
+.input-col:nth-child(1) {
+    width: 28%;
+}
+.input-col:nth-child(2){
+    width: 59%;
+}
+input.formInputRoyality {
+    outline: none;
+    width: 103%;
+    border-radius: 5px;
+    height: 52px;
+    border: 1px solid #ccc;
+}
+.buttonmain {
+    height: 34px;
+    cursor: pointer;
+    background: #E26600;
+    width: 119px;
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 14px;
+}
+.royal5 {
+    position: absolute;
+    right: 13%;
+}
+.fullrow {
+    margin: 0 auto;
+    width: 97%;
+}
+.iconcLOSE1{
+    
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+
+
+}
+.section-half-row {
+    display: flex;
+    justify-content: space-between;
+}
+.innerinputflex {
+    display: flex;
+    gap: 4rem;
+}
+input.formInputRoyalityMain {
+    position: relative;
+    left: 28%;
+    height: 39px;
+}
+p.newtext2{
+    position: relative;
+    left: 10px;
+}
+.formflexinput {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding-top: 9px;
+}
+
+.royalty {
+    padding: 5px;
+}
+input.inputboxflex{
+    outline: none;
+    border-radius: 5px;
+    height: 52px;
+    border: 1px solid #ccc;
+
+}
+.royal1 {
+    width: 29%;
+}
+.royal2 {
+    width: 21%;
+}
+.royal3 {
+    width: 18%;
+}
+.royal4 {
+    width: 21%;
+}
+
+
+

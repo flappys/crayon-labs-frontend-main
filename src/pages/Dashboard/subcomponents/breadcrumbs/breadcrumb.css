@@ -1,0 +1,42 @@
+.breadflex{
+    padding-top: 20px;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 50%;
+
+
+}
+.breadcol1{
+    width: 50%;
+}
+.breadcol2{
+    width: 15.5%;
+}
+.button_box {
+    background: #E26600;
+    width: 35%;
+    cursor: pointer;
+    height: 38px;
+    padding-top: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+.breadtext{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.breadcol3 {
+    width: 18.5%;
+}
+.breadcol4 {
+    width: 9.5%;
+}
+
+.myProjectBread {
+    margin-left: 0%;
+}
+
+.DashboardBread {
+    margin-left: 54%;
+}

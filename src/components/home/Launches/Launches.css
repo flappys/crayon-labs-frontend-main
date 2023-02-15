@@ -1,0 +1,183 @@
+
+.cardflex {
+
+    position: relative;
+    left: 5%;
+    top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    margin-left: 6%;
+    gap: 1rem;
+}
+.col {
+    width: 100%;
+    transition: transform .2s; 
+    padding: 5px;
+}
+.text-center-launches {
+    text-align: center;
+}
+.sub_launch_content{
+    display: flex;
+}
+p.titlelaunchsub{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+}
+p.titlelaunches {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+}
+p.SUBtitlelaunches {
+    font-size: 20px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+p.launchname{
+    color: white;
+}
+.text-right {
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+.subcol1 {
+    width: 54%;
+}
+p.supply {
+    font-family: 'DM Sans', sans-serif;
+    color: white;  
+}
+.sub_launch_content {
+    display: flex;
+    position: relative;
+    bottom: 27px;
+}
+.box {
+    position: relative;
+    top: 18px;
+    background: #E26600;
+    width: 84px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    height: 27px;
+    padding-top: 4px;
+    border-radius: 11px;
+    color: white;
+}
+
+
+.react-multi-carousel-track{
+    gap: 3rem !important;
+}
+li.react-multi-carousel-item.test{
+    transition: transform .2s;
+    cursor: pointer; 
+  
+}
+li.react-multi-carousel-item.test:hover{
+    transform: scale(1.2);
+
+}
+.carousel-container {
+    width: 100%;
+}
+.react-multiple-carousel__arrow{
+    top: 28% !important;
+}
+.react-multi-carousel-list{
+    width: 74%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    p.titlelaunchsub{
+        padding-bottom: 18px;
+    }
+    .pastlaunches {
+        margin: 0 auto;
+        width: 88%;
+    }
+    .cardflex {
+      
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: white;
+    position: relative;
+    left: 23%;
+
+    }
+    .col {
+        width: 100%;
+    }
+    .text-right {
+        font-family: 'DM Sans', sans-serif;
+        position: relative;
+        left: 24%;
+    }
+    .text-center-launches {
+        text-align: center;
+        position: relative;
+        top: 17px;
+    } 
+    .react-multiple-carousel__arrow{
+        top: 0%;
+    }
+    .react-multi-carousel-list{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .cardflex{
+        display: flex;
+        flex-direction: column;
+        left: 0px;
+    }
+    p.titlelaunches{
+        font-size: 24px;
+    }
+    p.titlelaunchsub{
+        font-size: 18px;
+        position: relative;
+        bottom: 9px;
+    
+    }
+    .react-multiple-carousel__arrow{
+        top: 30%;
+    }
+    .react-multi-carousel-list{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .col {
+        width: 100%;
+    }
+    .box{
+        top:0px;
+    }
+    .subcol1 {
+        width: 69%;
+    }
+    .subcol {
+        width: 9%;
+    }
+    img.avatar{
+        width: 100%;
+    min-width: 100px;
+    }
+    .text-center-launches {
+        text-align: center;
+        margin-top: 10%;
+    }    
+}
+
+

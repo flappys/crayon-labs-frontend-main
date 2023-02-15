@@ -1,0 +1,42 @@
+.head_sent_email{
+    border-bottom: 1px solid white;
+    height: 78px;
+}
+
+.mail_icon_div{
+    text-align: center;
+    padding: 3rem;
+}
+
+.email_contents {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 16px;
+    width: 76%;
+    margin: 0 auto;
+}
+
+.sent_email_container {
+    background: #17245C;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 550px;
+    margin-top: 4%;
+    height: 547px;
+    border-radius: 20px;
+
+}
+
+p.SentP {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    font-size: 31px;
+    color: white;
+    position: relative;
+    bottom: 14px;
+    padding-left: 6%;
+}

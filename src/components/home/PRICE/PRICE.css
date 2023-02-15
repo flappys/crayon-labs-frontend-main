@@ -1,0 +1,154 @@
+.priceTitle{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 44px;
+
+
+}
+span.radioname {
+    color: white;
+    font-size: 19px;
+    padding: 17px;
+}
+.radioFlex {
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'DM Sans', sans-serif;
+   
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid black;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+
+}
+
+.priceCard{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    width: 25%;
+}
+.priceflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+    text-align: center;
+    gap: 1rem;
+}
+
+.pricecontentTop {
+    background: #17245C;
+    font-family: 'DM Sans', sans-serif;
+    height: 39px;
+    opacity: 0.95;
+    box-shadow: 0px 4px 39px rgb(0 0 0 / 32%);
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 23px;
+    font-size: 18px;
+}
+p.pricefootsub {
+    position: relative;
+    bottom: 1px;
+}
+.pricecontentBottom {
+   
+    background: #1B3766;
+    height: 65%;
+    padding-top: 1%;
+
+
+}
+.pricesection {
+    padding-top: 7%;
+}
+p.priceCount {
+    height: 23px;
+    font-size: 60px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 3%;
+
+}
+.pricecontent { 
+    background: #091C43;
+    height: 587px;
+    position: relative;
+    top: 102px;
+
+}
+p.priceSub {
+    position: relative;
+    bottom: 2%;
+}
+.priceFoot {
+    background: #1B3766;
+    height: 25%;
+    position: relative;
+    bottom: 6%;
+    font-size: 20px;
+    padding-top: 12px;
+    border-top: 1px solid white;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .priceCard{
+        width: 90%;
+        margin: 10px auto;
+        
+    }
+    .priceTitle {
+        text-align: center;
+        color: white;
+        font-size: 28px;
+        margin-top: -6.5%;
+        font-weight: bolder;
+    
+    }
+    
+    .pricecontent {
+        background: #091C43;
+        height: 520px;
+        padding-top: 5px;
+        position: relative;
+        top: 48px;
+    }
+    span.radioname{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+    .priceCard{
+        width: 34%;
+    }
+}
